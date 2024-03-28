@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="logo">
+    <img src="../assets/currency.png" class="img mb-3">
+    <h2 class="h2">Sign up to FMSCollection</h2>
+  </div>
+  <div class="form-container">
+    <form [formGroup]="signUpForm" (submit)="submitSignUp()">
+      <div class="form-group inline">
+        <div style="width: 48%;">
+          <label class="mb-1 required-label" for="firstName">First Name</label>
+          <input type="text" formControlName="firstName" class="form-input form-control mb-4" tabindex="1"
+            required="required">
+        </div>
+        <div style="width: 48%;">
+          <label class="mb-1" for="lastName">Last Name(Optional)</label>
+          <input type="text" formControlName="lastName" class="form-input form-control mb-4" tabindex="2"
+            required="required">
+        </div>
+      </div>
+      <div class="form-group inline">
+        <div style="width: 48%;">
+          <label class="mb-1 required-label" for="mobileNumber">Mobile Number</label>
+          <input type="text" formControlName="mobileNumber" class="form-input form-control mb-4" tabindex="3"
+            required="required">
+        </div>
+        <div style="width: 48%;">
+          <label class="mb-1 required-label" for="dateOfbirth">Date of Birth</label>
+          <input type="date" formControlName="dateOfbirth" class="form-input form-control mb-4" tabindex="4"
+            required="required">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="mb-1 required-label" for="email">Email Id(will use as Username)</label>
+        <input type="text" formControlName="email" class="form-input form-control  mb-4" tabindex="5"
+          required="required" />
+      </div>
+      <div class="form-group">
+        <label class="mb-1 required-label" for="address">Address</label>
+        <textarea formControlName="address" class="form-input form-control  mb-4"  rows="3" cols="40" tabindex="6"></textarea>
+      </div>
+      <div class="form-group inline">
+        <button type="submit" tabindex="7" class="btn btn-success btn-block form-control">Create account</button>
+      <button type="reset" tabindex="8" class="btn btn-success btn-block form-control">Clear</button>
+  </div>
+</form>
+  </div>
+  <div class="form-container">
+    <div class="signup-forgot">
+      Already have account? <a href="/login/">Login</a>
+    </div>
+  </div>
+</div>

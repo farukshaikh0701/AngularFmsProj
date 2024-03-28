@@ -1,0 +1,16 @@
+export const DAYTYPE = 11
+export const COINTYPE = 12;
+export const RELATION = 15;
+export const MONTH = 4;
+export const MODEOFTRANSACTION = 14;
+export const DAYURL = 'https://localhost:7069/api/day/';
+export const EXPENSEURL = 'https://localhost:7069/api/expense/';
+export const LOGINURL = 'https://localhost:7069/api/login/';
+export const USERURL = 'https://localhost:7069/api/user/';
+export const ASSETURL = 'https://localhost:7069/api/asset/';
+export const CURRENCYCOINURL = 'https://localhost:7069/api/CollectionCoin/';
+export const ATTACHMENT =  "../../assets/ProjectAttatchments/";
+// export const ATTACHMENT = "..\\..\\assets\\ProjectAttatchments\\";
+// export const ATTACHMENT = "D:\\ProjectAttatchments\\";
+export const COLLECTIONCOINS = "Collection_Coins";
+export const BIRTHDAYPERSONPIC = "Birthday_Person_Pic";
